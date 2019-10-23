@@ -36,36 +36,38 @@
     // // console.log(menu);
     // // menu.splice(2, 1) //delete
     // // console.log(menu);
-    // let n = prompt('xin chao! moi ban nhap lua chon:' ) // khoi tao (I)
-    // let menu = ['quan jean', 'ao thun', 'ao dai']
-    // if(n == 1)    // xem đồ -----> in ra món đồ (R)
-    // {
-    //     console.log(menu);  
-    // }
-    // else if(n == 2) // bán đồ ----> muốn bán gì (C)
-    // {
-    //  let ban = prompt('nhap do ban muon ban:')
-    //  menu.push(ban)
-    //  console.log(menu)
-    // }
-    // else if(n == 3) // mua đồ ---> mua đồ gì (D)
-    // {
-    // console.log(menu)
-    // let stt = prompt('nhap stt mon do ban muon mua')
-    // menu.splice(stt, 1)
-    // console.log(menu)
-    // }
-    // else if(n == 4) // đổi đồ ----> đổi đồ gì? update (U)
-    // {
-    //  console.log(menu)
-    //  let stt = prompt('nhap stt mon hang ban muon doi')
-    //  let doi = prompt('nhap ten mon hang muon doi')
-    //  menu[stt] = doi
-    //  console.log(menu)
-    // }
-    // else
-    // {
-    //     console.log('khong co lua chon cua ban, ban nen di cho khac choi')
-    // }
-    let n = Math.floor(1234/10)
-    console.log(n)
+    
+
+
+    // bai tap ve nha tren lơp bưởi 2
+    let n = prompt('xin chao! moi ban nhap lua chon:' ) // khoi tao (I)
+    let menu = ['quan jean', 'ao thun', 'ao dai']
+    if(n == 1)    // xem đồ -----> in ra món đồ (R)
+    {
+        console.log(menu);  
+    }
+    else if(n == 2) // bán đồ ----> muốn bán gì (C)
+    {
+     let ban = prompt('nhap do ban muon ban:')
+     menu.push(ban)
+     console.log(menu)
+    }
+    else if(n == 3) // mua đồ ---> mua đồ gì (D)
+    {
+    console.log(menu)
+    let stt = prompt('nhap stt mon do ban muon mua')
+    menu.splice(stt, 1)
+    console.log(menu)
+    }
+    else if(n == 4) // đổi đồ ----> đổi đồ gì? update (U)
+    {
+     console.log(menu)
+     let stt = prompt('nhap stt mon hang ban muon doi')
+     let doi = prompt('nhap ten mon hang muon doi')
+     menu[stt] = doi
+     console.log(menu)
+    }
+    else
+    {
+        console.log('khong co lua chon cua ban, ban nen di cho khac choi')
+    }
