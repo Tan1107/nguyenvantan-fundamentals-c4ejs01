@@ -39,7 +39,7 @@
     
 
 
-    // bai tap ve nha tren lơp bưởi 2
+    // bai tap ve nha tren lơp buoi 2
     let n = prompt('xin chao! moi ban nhap lua chon:' ) // khoi tao (I)
     let menu = ['quan jean', 'ao thun', 'ao dai']
     if(n == 1)    // xem đồ -----> in ra món đồ (R)
