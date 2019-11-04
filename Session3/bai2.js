@@ -14,7 +14,6 @@ for(let i = 0; i < newArray.length; i++)
         evenArray.push(newArray[i])
 
     }
-
 }
 console.log(evenArray);
 
