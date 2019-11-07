@@ -113,13 +113,13 @@ let priceTable = {
 // {
 //   console.log(k, sumEveryTable[k]);
 // }
-// let sumTotalTable = 0
-// for( let k in sumEveryTable)
-// {
-//   sumTotalTable = sumTotalTable + sumEveryTable[k]
+let sumTotalTable = 0
+for( let k in sumEveryTable)
+{
+  sumTotalTable = sumTotalTable + sumEveryTable[k]
   
-// }
-// console.log(sumTotalTable);
+}
+console.log(sumTotalTable);
 
 // let objectPeople = {
 //   Name: 'Light',

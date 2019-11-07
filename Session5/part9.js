@@ -59,3 +59,4 @@ for( let i = 0; i < skillList.length; i ++)
 // thông báo skill đã không trúng mục tiêu
 
 
+
