@@ -1,0 +1,19 @@
+#cmd {
+    color: red;
+}
+
+.auto {
+    color: royalblue;
+}
+
+#image {
+    width: 500px;
+    height: 700px;
+    background-color: red;
+    margin-top: 10px;
+    padding: 25px;
+    border: 10px dotted blue;
+    /* background-image: url('img/download.jfif');
+    background-repeat: no-repeat;
+    background-position: -50px 0px; */
+}

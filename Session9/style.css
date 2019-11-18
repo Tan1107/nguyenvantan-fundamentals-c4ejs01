@@ -1,0 +1,25 @@
+.bg-blue {
+    background-color: blue;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-500 {
+    height: 500px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 10px;
+}
+
+#container {
+    display: flex;
+    /* flex-flow: column wrap; */
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
